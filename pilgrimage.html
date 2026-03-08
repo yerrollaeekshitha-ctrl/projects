@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pilgrimage Places</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<h2>Pilgrimage Places</h2>
+
+<button onclick="showPlaces('pilgrimage')">Show Places</button>
+
+<br><br>
+
+<input type="text" id="searchInput" placeholder="Search place">
+<button onclick="linearSearch('pilgrimage')">Search</button>
+
+<br><br>
+
+<button onclick="bubbleSort('pilgrimage')">Sort by Rating</button>
+
+<br><br>
+
+<input type="number" id="ratingInput" placeholder="Search rating">
+<button onclick="binarySearch('pilgrimage')">Binary Search</button>
+<br><br>
+<button onclick="viewPlace('Tirupati')">Tirupati</button>
+<button onclick="viewPlace('Varanasi')">Varanasi</button>
+<button onclick="viewPlace('Kedarnath')">Kedarnath</button>
+
+
+<br><br>
+
+<button onclick="goBack()">Go Back</button>
+<div id="output"></div>
+
+<br>
+<a href="index.html"><button>Back</button></a>
+
+</body>
+</html>

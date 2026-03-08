@@ -1,0 +1,119 @@
+/* General Page Styling */
+*{
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin:0;
+    background:#f4f6f8;
+    color:#333;
+    text-align:center;
+}
+
+/* Page Title */
+.title{
+    padding:20px;
+    font-size:36px;
+}
+
+/* Home Page Layout */
+.main-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    padding:40px;
+}
+
+/* Left Image */
+.left-image img{
+    width:1000px;
+    border-radius:100px;
+    box-shadow:0 5px 12px rgba(0,0,0,0.2);
+}
+
+/* Right Menu */
+.menu{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.menu h2{
+    margin-bottom:15px;
+}
+
+/* Buttons */
+button{
+    padding:10px 18px;
+    margin:6px;
+    border:none;
+    border-radius:6px;
+    background:#1e88e5;
+    color:white;
+    font-size:14px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1565c0;
+}
+
+/* Category Buttons (Home Page) */
+.menu button{
+    width:200px;
+    font-size:15px;
+}
+
+/* Input Fields */
+input{
+    padding:10px;
+    width:220px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+/* Output Section */
+#output{
+    margin:25px auto;
+    padding:20px;
+    width:90%;
+    
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap:20px;
+}
+
+/* Output Text */
+#output p{
+    padding:6px;
+    border-bottom:1px solid #eee;
+}
+
+/* Back Button */
+a button{
+    margin-top:20px;
+    background:#546e7a;
+}
+
+a button:hover{
+    background:#37474f;
+}
+.place-card{
+background:white;
+padding:15px;
+margin:15px auto;
+width:400px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.place-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:6px;
+margin-top:10px;
+}
